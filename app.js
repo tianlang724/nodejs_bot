@@ -13,8 +13,8 @@ var https_options = {
     certificate: fs.readFileSync('/etc/ssl/self-signed/server.crt')
 
 };
-var server=restify.createServer(https_options);
-//var server=restify.createServer();
+//var server=restify.createServer(https_options);
+var server=restify.createServer();
 server.listen(process.env.port||process.env.PORT||3978,function(){
     console.log('%s listing to %s',server.name,server.url);
 });
