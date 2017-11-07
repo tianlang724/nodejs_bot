@@ -1,4 +1,11 @@
 {
+  "name": "weatherBot",
+  "description": "test Bot",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "zh",
+
   "dependencies": {
     "botbuilder": "^3.7.0",
     "fs": "0.0.1-security",
